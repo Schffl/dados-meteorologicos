@@ -8,7 +8,7 @@ def obter_temperatura_valida():
             else:
                 print("Temperatura fora do intervalo válido (-60°C a 50°C). Tente novamente.")
         except ValueError:
-            print("Valor inválido. Tente novamente.")
+            print("Valor inválido! Tente novamente.")
 
 
 def obter_mes_valido():
